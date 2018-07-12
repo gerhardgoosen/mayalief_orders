@@ -1,10 +1,10 @@
-import { MayaliefOrdersPage } from './app.po';
+import { CliStablePage } from './app.po';
 
-describe('mayalief-orders App', function() {
-  let page: MayaliefOrdersPage;
+describe('cli-stable App', () => {
+  let page: CliStablePage;
 
   beforeEach(() => {
-    page = new MayaliefOrdersPage();
+    page = new CliStablePage();
   });
 
   it('should display message saying app works', () => {
